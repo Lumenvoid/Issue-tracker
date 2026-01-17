@@ -1,0 +1,30 @@
+<form action="mailto:beterggccss3@gmail.com" method="POST" enctype="text/plain">
+  
+<link rel="stylesheet" href="style.css">
+  
+    <label>Username (optional)</label>
+    <input type="text" name="Username" placeholder="Minecraft username">
+
+    <label>Plugin Version</label>
+    <input type="text" name="Plugin Version" placeholder="e.g. 1.0.0" required>
+
+    <label>Server Version</label>
+    <input type="text" name="Server Version" placeholder="Paper 1.21.11" required>
+
+    <label>Bug Type</label>
+    <select name="Bug Type" required>
+        <option value="">Select an option</option>
+        <option>Crash</option>
+        <option>Enchantment not working</option>
+        <option>Performance issue</option>
+        <option>Visual bug</option>
+        <option>Other</option>
+    </select>
+
+    <label>Bug Description</label>
+    <textarea name="Description" rows="5"
+        placeholder="Explain what happened and how to reproduce it..." required></textarea>
+
+    <button type="submit">Send Bug Report</button>
+
+</form>
